@@ -1,0 +1,8 @@
+name: geo-ds-cholera
+dependencies:
+- folium=0.14.0
+- geopandas=0.12.2
+- ipykernel=6.21.2
+- matplotlib=3.6.3
+- pandas=1.5.3
+- python=3.9

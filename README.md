@@ -35,4 +35,10 @@ _all to be shared, initially, in a series of Jupyter notebooks_
 **Hypothesis**:
 Environmental and socio-economic factors alone won’t unravel this very complex relationship, but they can help identify spatio-temporal patterns that could help assist in allocating resources and support.
 
+**Setting up your local environment**:
+Run the following commands in your terminal to create your the environment used in this notebook:
+
+`conda env create -f environment.yaml`
+`conda activate geo-ds-cholera`
+
 
