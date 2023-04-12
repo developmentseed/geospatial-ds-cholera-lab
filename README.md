@@ -39,6 +39,6 @@ Environmental and socio-economic factors alone won’t unravel this very complex
 Run the following commands in your terminal to create your the environment used in this notebook:
 
 `conda env create -f environment.yaml`
-`conda activate geo-ds-cholera`
+`conda activate geo-ds-lab-cholera`
 
 
