@@ -11,6 +11,7 @@ dependencies:
 - hvplot=0.8.3
 - ipykernel=6.21.2
 - matplotlib=3.6.3
+- nbformat=5.8.0
 - nbdev=2.2.10
 - pandas=1.5.3
 - plotly=5.14.1
