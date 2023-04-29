@@ -101,6 +101,13 @@ conda env create
 conda activate geo-ds-cholera
 ```
 
+Whenever you modify the `environment.yml` file, run the following command to
+update your conda environment:
+
+```plain
+conda env update
+```
+
 ### Install pre-commit and pre-commit hooks
 
 To aid development, this repository uses the `pre-commit` tool, which is
