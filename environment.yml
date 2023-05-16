@@ -11,3 +11,5 @@ dependencies:
 - pandas=1.5.3
 - pre-commit=3.2.2
 - python=3.11.3
+- rioxarray=0.14.1
+- rasterstats=0.17.0
