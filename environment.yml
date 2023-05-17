@@ -3,8 +3,10 @@ channels:
 - conda-forge
 - fastai
 dependencies:
+- aiohttp=3.8.4
 - black[jupyter]=23.3.0
 - folium=0.14.0
+- geojson-pydantic=0.6
 - geopandas=0.12.2
 - ipykernel=6.21.2
 - matplotlib=3.6.3
