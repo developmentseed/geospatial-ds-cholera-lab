@@ -62,7 +62,7 @@ COD,KINGABWA,"Kingabwa, Limete, Kinshasa, République démocratique du Congo", L
 COD,KITONA,"Kitona, Kongo-Central, République démocratique du Congo", Kongo-Central
 COD,LEMERA,"Lemera, Gombe, Kinshasa, République démocratique du Congo", Gombe
 COD,LOGO,"Logo, Mahagi, Ituri, République démocratique du Congo", Mahagi
-COD,LOWA,"Lowa, République démocratique du Congo",
+COD,LOWA,"Lowa, République démocratique du Congo", République démocratique du Congo
 COD,LUKAFU,"Lukafu, Haut-Katanga, République démocratique du Congo", Haut-Katanga
 COD,MALUKU,"Maluku, Kinshasa, République démocratique du Congo", Kinshasa
 COD,MALUKU,"Maluku, Kinshasa, République démocratique du Congo", Kinshasa
@@ -90,7 +90,7 @@ ETH,FINFINE ZURIA,,
 ETH,NORTH GONDAR,"ሰሜን ጎንደር, አማራ ክልል / Amhara, 6200, ኢትዮጵያ", አማራ ክልል / Amhara
 ETH,NORTH WOLLO,"ሰሜን ወሎ, አማራ ክልል / Amhara, 6500, ኢትዮጵያ", አማራ ክልል / Amhara
 ETH,NORTH WESTERN TIGRAY,"North Western Tigray, ትግራይ, ኢትዮጵያ", ትግራይ
-ETH,TIGRAY,"ትግራይ, ኢትዮጵያ",
+ETH,TIGRAY,"ትግራይ, ኢትዮጵያ", ኢትዮጵያ
 ETH,SOUTH GONDER,"South Gonder, አማራ ክልል / Amhara, ኢትዮጵያ", አማራ ክልል / Amhara
 ETH,SOUTH OMO,"South Omo, የደቡብ ብሔር ብሔረሰቦችና ሕዝቦች ክልል / Southern Nations, Nationalities, and Peoples' Region, ኢትዮጵያ", Nationalities
 ETH,SOUTH WOLLO,"South Wollo, አማራ ክልል / Amhara, 7714, ኢትዮጵያ", አማራ ክልል / Amhara
@@ -114,12 +114,12 @@ TCD,ABECHE,"Abéché أبشي, Ouaddaï وداي, Tchad تشاد", Ouaddaï ود
 TCD,AMTIMAN,"Sarh-Kyabe-AmTiman, Salamat سلامات, Tchad تشاد", Salamat سلامات
 TCD,BERE,"Béré بيري, Tandjilé تانجلي, Tchad تشاد", Tandjilé تانجلي
 TCD,BOKORO,"Bokoro بوكورو, Hadjer-Lamis حجر لميس, Tchad تشاد", Hadjer-Lamis حجر لميس
-TCD,BOL,"Bol بول, Tchad تشاد",
+TCD,BOL,"Bol بول, Tchad تشاد", Tchad تشاد
 TCD,BONGOR,"Bongor, Mayo-Kebbi Est مايو كيبي الشرقية, Tchad تشاد", Mayo-Kebbi Est مايو كيبي الشرقية
 TCD,FIANGA,"Fianga فيانكا, Mayo-Kebbi Est مايو كيبي الشرقية, Tchad تشاد", Mayo-Kebbi Est مايو كيبي الشرقية
 TCD,GOUNOU GAYA,"Gounou Gaya قونو قايا, Mayo-Kebbi Est مايو كيبي الشرقية, Tchad تشاد", Mayo-Kebbi Est مايو كيبي الشرقية
 TCD,GUELENDENG,"Guélendeng غيلندنك, Mayo-Kebbi Est مايو كيبي الشرقية, Tchad تشاد", Mayo-Kebbi Est مايو كيبي الشرقية
-TCD,LAI,"Tandjilé تانجلي, Tchad تشاد",
+TCD,LAI,"Tandjilé تانجلي, Tchad تشاد", Tchad تشاد
 TCD,LERE,"Ləre ليري, Mayo-Kebbi Ouest مايو كيبي الغربية, Tchad تشاد", Mayo-Kebbi Ouest مايو كيبي الغربية
 TCD,MANDELIA,"مانديليا Mandelia, Chari-Baguirmi شاري باقرمي, Tchad تشاد", Chari-Baguirmi شاري باقرمي
 TCD,MASSAGUET,"Massaguet مساقط, Hadjer-Lamis حجر لميس, Tchad تشاد", Hadjer-Lamis حجر لميس
