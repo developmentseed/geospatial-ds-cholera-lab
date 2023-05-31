@@ -101,6 +101,37 @@ help assist in allocating resources and support.
 
 ## Setting up your local environment
 
+### Install Git Large File Storage
+
+This repository contains files larger than 50 MB, and thus requires the use of
+Git Large File Storage (LFS) for managing them.  In order to obtain these large
+files during repository cloning, you must [install Git Large File Storage].
+
+On macOS, the easiest way to install Git LFS is via Homebrew:
+
+```plain
+brew install git-lfs
+```
+
+Once installed, initialize it:
+
+```plain
+git lfs install
+```
+
+To track new types of large files (larger than 50 MB), you must tell Git LFS to
+track them, typically by extension.  For example, to track all Shapefiles:
+
+```plain
+git lfs track "*.shp"
+```
+
+You can then add and commit such files like any other file in the repository.
+
+Note that the `git lfs track` command will modify the `.gitattributes` file when
+given a new pattern to track.  When this occurs, be sure to add `.gitattributes`
+to your commit, along with the newly tracked large files.
+
 ### Install conda and create conda environment
 
 Install `conda`.  The recommended way to do this is by installing
@@ -152,3 +183,6 @@ them:
 ```plain
 pre-commit run -a
 ```
+
+[Install Git Large File Storage]:
+  https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
