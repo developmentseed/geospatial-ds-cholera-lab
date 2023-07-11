@@ -3,6 +3,7 @@ channels:
 - conda-forge
 - fastai
 dependencies:
+
 - aiohttp>=3.8
 - black[jupyter]>=23.3
 - cartopy>=0.21
@@ -19,9 +20,14 @@ dependencies:
 - nbformat>=5.8
 - pandas>=2.0.2
 - plotly>=5.14
+- pooch>=1.7.0
 - pre-commit>=3.3
 - pycountry>=22.3
 - pyproj>=3.5
 - python>=3.11
+- regionmask>=0.10.0
 - requests>=2.31
+- rioxarray>=0.14.1
 - thefuzz[speedup]>=0.19
+- xarray>=2023.6.0
+- xarray-spatial>=0.3.5
