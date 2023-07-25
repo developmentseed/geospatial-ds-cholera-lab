@@ -4,30 +4,32 @@ channels:
 - fastai
 dependencies:
 
-- aiohttp>=3.8
+# - aiohttp
 - black[jupyter]>=23.3
-- cartopy>=0.21
-- folium>=0.14
-- geojson-pydantic>=0.6
-- geopandas>=0.12
-- geopy>=2.3
-- geoviews>=1.9
-- holoviews>=1.16
-- hvplot>=0.8
-- ipykernel>=6.23
-- matplotlib>=3.6
-- nbdev>=2.2
-- nbformat>=5.8
-- pandas>=2.0.2
-- plotly>=5.14
-- pooch>=1.7.0
+# - cartopy
+# - folium
+# - geojson-pydantic
+- geopandas
+# - geopy
+# - geoviews
+# - holoviews
+# - hvplot
+- ipykernel
+- matplotlib
+- nbdev
+- nbformat
+- netCDF4
+- pandas
+# - plotly
+- pooch
 - pre-commit>=3.3
-- pycountry>=22.3
-- pyproj>=3.5
-- python>=3.11
-- regionmask>=0.10.0
-- requests>=2.31
-- rioxarray>=0.14.1
-- thefuzz[speedup]>=0.19
-- xarray>=2023.6.0
-- xarray-spatial>=0.3.5
+# - pycountry
+# - pyproj
+- python>=3.10
+- rasterio>=1.3.8
+- regionmask
+- requests
+- rioxarray
+# - thefuzz[speedup]
+- xarray[accel,parallel]
+- xarray-spatial
