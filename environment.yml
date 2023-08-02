@@ -4,9 +4,10 @@ channels:
 - fastai
 dependencies:
 
-# - aiohttp
-- black[jupyter]>=23.3
+- black[jupyter]~=23.3
+- bottleneck
 # - cartopy
+- dask
 # - folium
 # - geojson-pydantic
 - geopandas
@@ -19,17 +20,16 @@ dependencies:
 - nbdev
 - nbformat
 - netCDF4
+- numexpr
 - pandas
 # - plotly
 - pooch
-- pre-commit>=3.3
-# - pycountry
+- pre-commit~=3.3
 # - pyproj
-- python>=3.10
-- rasterio>=1.3.8
+- python~=3.10.0
+- rasterio~=1.3.8
 - regionmask
 - requests
 - rioxarray
-# - thefuzz[speedup]
-- xarray[accel,parallel]
+- xarray
 - xarray-spatial
