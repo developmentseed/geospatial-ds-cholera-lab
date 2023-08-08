@@ -2,12 +2,21 @@ name: geo-ds-cholera
 channels:
 - conda-forge
 dependencies:
-- black[jupyter]=23.3.0
-- folium=0.14.0
-- geopandas=0.12.2
-- ipykernel=6.21.2
-- matplotlib=3.6.3
-- nbdev=2.2.10
-- pandas=1.5.3
-- pre-commit=3.2.2
-- python=3.11.3
+- black-jupyter~=23.3
+- bottleneck
+- folium
+- geopandas
+- ipykernel
+- matplotlib
+- nbdev
+- netCDF4
+- numexpr
+- pandas~=2.0
+- pre-commit
+- python~=3.11.0
+- rasterio
+- regionmask
+- requests
+- rioxarray
+- xarray
+- xarray-spatial
