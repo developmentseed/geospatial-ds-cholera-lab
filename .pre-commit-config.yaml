@@ -19,4 +19,4 @@ repos:
   rev: 2.3.11
   hooks:
   - id: nbdev_clean
-    args: [--fname, ./, --clear_all]
+    args: [--fname, ".", --clear_all]
