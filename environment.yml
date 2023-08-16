@@ -9,9 +9,11 @@ dependencies:
 - ipykernel
 - matplotlib
 - nbdev
+- nbformat
 - netCDF4
 - numexpr
 - pandas~=2.0
+- plotly
 - pre-commit
 - python~=3.11.0
 - rasterio
