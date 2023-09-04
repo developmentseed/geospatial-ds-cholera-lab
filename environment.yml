@@ -1,24 +1,37 @@
 name: geo-ds-cholera
 channels:
+- fastai
 - conda-forge
 dependencies:
 - black-jupyter~=23.3
 - bottleneck
+- dask
+- dask-labextension
+# xarray uses flox for better `groupby` performance
+- flox
 - folium
 - geopandas
 - ipykernel
+- jupyterlab
 - matplotlib
 - nbdev
 - nbformat
 - netCDF4
 - numexpr
 - pandas~=2.0
+- pip
 - plotly
 - pre-commit
 - python~=3.11.0
+- python-dotenv
 - rasterio
 - regionmask
-- requests
 - rioxarray
+# stamina retries failed operations
+- stamina
+# stamina automatically writes log entries via structlog, when installed
+- structlog
 - xarray
-- xarray-spatial
+- pip:
+  # CEDA OPeNDAP access requires a certificate
+  - ContrailOnlineCAClient
