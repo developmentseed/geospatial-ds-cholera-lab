@@ -64,6 +64,11 @@ def zonal_means(
             .to_dataframe()
             .dropna()
             .reset_index()
-            .astype({"zone": int})
-            .set_index(["time", "zone"])
+            .astype({"zone": int}, copy=False)
+            .assign(
+                year=lambda df: df["time"].dt.year,
+                month=lambda df: df["time"].dt.month,
+            )
+            .drop(columns="time")
+            .set_index(["year", "month", "zone"])
         )
