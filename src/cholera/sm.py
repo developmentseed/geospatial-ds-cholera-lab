@@ -25,7 +25,7 @@ def dataset(
     time_slice = (
         # When given a single date, create time slice from the start of the
         # month to the end of the month to make sure it spans the entire month.
-        (start := date(time.year, time.month, 1), start + pd.offsets.MonthEnd())
+        slice(start := date(time.year, time.month, 1), start + pd.offsets.MonthEnd())
         if isinstance(time, date)
         else time
     )
