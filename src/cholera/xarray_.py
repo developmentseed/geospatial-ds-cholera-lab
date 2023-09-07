@@ -47,6 +47,7 @@ def zonal_means(
     regions: gpd.GeoDataFrame,
     fetch_data: DataFetcher,
     *,
+    numbers: str = "location_period_id",
     lon_name: str,
     lat_name: str,
     time: date | slice,
@@ -55,20 +56,25 @@ def zonal_means(
 
     with distributed.Client():
         values = fetch_data(longitude=lon, latitude=lat, time=time)
-        zones = regionmask.mask_geopandas(regions, values[lon_name], values[lat_name])
+        mask = regionmask.mask_geopandas(
+            regions,
+            values[lon_name],
+            values[lat_name],
+            numbers=numbers,
+        )
 
         return (
-            values.assign_coords(zone=zones)
-            .groupby("zone")
+            values.assign_coords({numbers: mask})
+            .groupby(numbers)
             .mean(skipna=True, engine="flox", method="cohorts")
             .to_dataframe()
             .dropna()
             .reset_index()
-            .astype({"zone": int}, copy=False)
+            .astype({numbers: int}, copy=False)
             .assign(
                 year=lambda df: df["time"].dt.year,
                 month=lambda df: df["time"].dt.month,
             )
             .drop(columns="time")
-            .set_index(["year", "month", "zone"])
+            .set_index(["year", "month", numbers])
         )
