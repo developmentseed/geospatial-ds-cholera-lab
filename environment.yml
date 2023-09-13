@@ -1,7 +1,7 @@
 name: geo-ds-cholera
 channels:
-- fastai
 - conda-forge
+- fastai
 dependencies:
 - black-jupyter~=23.3
 - bottleneck
@@ -14,7 +14,7 @@ dependencies:
 - ipykernel
 - jupyterlab
 - matplotlib
-- nbdev
+- nbdev~=2.3
 - nbformat
 - netCDF4
 - numexpr
