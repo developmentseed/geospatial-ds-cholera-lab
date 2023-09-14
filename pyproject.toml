@@ -1,0 +1,18 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools",
+    "wheel",
+]
+
+[project]
+name = "cholera"
+version = "0.1.0"
+authors = [
+    { name = "Kathryn Berger", email = "kathryn@developmentseed.org" },
+    { name = "Chuck Daniels", email = "chuck@developmentseed.org" },
+    { name = "Jennifer Tran", email = "jennifer@developmentseed.org" },
+]
+description = "Cholera Lab"
+readme = "README.md"
+requires-python = ">=3.11"
