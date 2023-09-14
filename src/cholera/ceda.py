@@ -13,6 +13,7 @@ DEFAULT_DODSRC_FILE: Final = Path.home() / ".dodsrc"
 DEFAULT_PEM_FILE: Final = DEFAULT_CERTS_DIR / "ceda-dods.pem"
 
 
+# Based upon code at https://github.com/cedadev/opendap-python-example
 def auth(
     *,
     username: str,
