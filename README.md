@@ -169,18 +169,21 @@ update your conda environment:
 conda env update
 ```
 
-If you haven't already done so, create a `.env` file (which is ignored by `git`
-in this repository) at the root of this repository, which can be performed
-initially by copying `.env-example`:
+If you haven't already done so, create a `.env` file at the root of this
+repository (ignored by `git`), which you can perform by making a copy of
+`.env-example`, like so:
 
 ```plain
-# -n prevents overwriting exising file
+# This copies .env-example to .env, unless .env already exists
 cp -n .env-example .env
 ```
 
-Read the comments in `.env-example` for instructions on setting values in your
-`.env` file.  When pulling new code, check for changes in `.env-example`, and
-if there are any changes, be sure to synchronize your `.env` file as necessary.
+Edit your `.env` file, setting values as appropriate for yourself, as this file
+is not committed to git, and thus is not shared with others because it intended
+to contain sensitive, user-specific values.  Some parts of the code in this
+repository will load values from your `.env` file, and thus may either fail to
+run or skip certain parts of logic, if your `.env` file does not contain
+properly configured values.
 
 In order to allow notebooks in this repository to import modules in this
 repository, you must perform a local, editable `pip` install:
