@@ -3,6 +3,20 @@
 A repository dedicated to developing a geospatial data science prototype (see
 issue: <https://github.com/developmentseed/labs/issues/292>).
 
+- [The Objective](#the-objective)
+- [Literature Support](#literature-support)
+- [The Challenge](#the-challenge)
+- [Proposed open-source, available datasets](#proposed-open-source-available-datasets)
+  - [_Cholera outbreak data_](#cholera-outbreak-data)
+  - [_Environmental drivers_](#environmental-drivers)
+- [Proposed Methodology](#proposed-methodology)
+- [Hypothesis](#hypothesis)
+- [Setting up your local environment](#setting-up-your-local-environment)
+  - [Install Git Large File Storage](#install-git-large-file-storage)
+  - [Install conda and create conda environment](#install-conda-and-create-conda-environment)
+  - [Install pre-commit and pre-commit hooks](#install-pre-commit-and-pre-commit-hooks)
+- [Reproducing the Results](#reproducing-the-results)
+
 ## The Objective
 
 To explore the use of machine learning techniques on publicly available,
@@ -213,3 +227,15 @@ them:
 ```plain
 pre-commit run -a
 ```
+
+## Reproducing the Results
+
+After setting up your local environment (see above), you may reproduce our
+results as follows:
+
+1. Run `exploration/zonal-means.ipynb` to reproduce the individual zonal means
+   CSV files under the `data` directory.  The inputs to this notebook are the
+   `outbreaks.csv` and shapefile found under the `src/cholera/resources` path.
+1. Run `exploration/aggregate-zonal-means.ipynb` to reproduce the aggregate
+   zonal means CSV file under the `data` directory.  The inputs are the
+   individual zonal means produced by the previous step.
