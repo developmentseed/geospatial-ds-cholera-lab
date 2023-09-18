@@ -36,3 +36,4 @@ dependencies:
 - pip:
   # CEDA OPeNDAP access requires a certificate
   - ContrailOnlineCAClient
+  - missingno
