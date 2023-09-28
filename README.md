@@ -57,13 +57,12 @@ a number of remotely sensed variables captured over the same time-frame.
 
 ### _Cholera outbreak data_
 
-* Cholera surveillance (published cholera outbreak data for research purposes
-  (see linked repo and associated manuscript, only outbreak data will be
-  extracted and used for demonstration purposes in this PoC:
+* Cholera surveillance data has been published for research purposes
+  (see linked repo and associated manuscript). We will utilize only the georeferenced outbreak dataset from the repo for the purposes of our investigation and development of the PoC:
   [Cholera outbreaks in sub-Saharan Africa 2010-2019](https://github.com/HopkinsIDD/cholera_outbreaks_ssa),
-  see `data/outbreak_data.csv`)
+  (see `data/outbreak_data.csv`)
 
-### _Environmental drivers_
+### _Environmental drivers identified from the literature_
 
 Below are a list of potential indicator datasets for inclusion into the Cholera Lab study based on literature support ([Gwenzi & Sanganyado 2019](https://www.mdpi.com/2078-1547/10/1/1); [Lessler et al. 2018](https://www.sciencedirect.com/science/article/pii/S0140673617330507#sec1); [Perez-Saez et al. 2022](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(22)00007-9/fulltext); [Moore et al. 2017](https://www.pnas.org/doi/10.1073/pnas.1617218114), and others outlined below more specifically below)
 
