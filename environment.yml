@@ -11,6 +11,7 @@ dependencies:
 - flox
 - folium
 - geopandas
+- imbalanced-learn
 - ipykernel
 - jupyterlab
 - matplotlib
@@ -35,3 +36,4 @@ dependencies:
 - pip:
   # CEDA OPeNDAP access requires a certificate
   - ContrailOnlineCAClient
+  - missingno
